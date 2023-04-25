@@ -42,7 +42,10 @@ def map():
     ):
         return
 
-    st.header(location["name"])
+    st.markdown(
+        "<img src='app/static/Whataburger_Logo.png' width='160' />", unsafe_allow_html=True
+    )
+    st.header(location["address"] + ", " + location["name"])
 
     # Display metrics
     show_metrics()
