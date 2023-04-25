@@ -8,85 +8,22 @@ from utils.code_examples import get_code_example
 def show_sidebar_options():
     locations = [
         {
-            "id": "san-francisco",
-            "name": "San Francisco, US",
-            "address": "302 Potrero Ave",
-            "lat": 37.76562,
-            "lon": -122.40797,
-            "tz": "America/Los_Angeles",
+            "id": "texas",
+            "name": "Houston, Texas",
+            "address": "3712 S Shepherd Dr",
+            "lat": 29.73289,
+            "lon": -95.41090,
+            "tz": "America/Chicago",
             "units": "imperial",
         },
         {
-            "id": "new-york",
-            "name": "New York, US",
-            "address": "700 6th Ave",
-            "lat": 40.74425,
-            "lon": -73.99325,
-            "tz": "America/New_York",
+            "id": "arizona",
+            "name": "Phoenix, Arizona",
+            "address": "737 E McDowell Rd",
+            "lat": 33.46547,
+            "lon": -112.06354,
+            "tz": "America/Phoenix",
             "units": "imperial",
-        },
-        {
-            "id": "los-angeles",
-            "name": "Los Angeles, US",
-            "address": "459 S Vermont Ave",
-            "lat": 34.06860,
-            "lon": -118.29330,
-            "tz": "America/Los_Angeles",
-            "units": "imperial",
-        },
-        {
-            "id": "toronto",
-            "name": "Toronto, CA",
-            "address": "153 Yorkville Ave",
-            "lat": 43.67097,
-            "lon": -79.39440,
-            "tz": "America/Toronto",
-            "units": "metric",
-        },
-        {
-            "id": "london",
-            "name": "London, UK",
-            "address": "25 Ganton St",
-            "lat": 51.51336,
-            "lon": -0.13952,
-            "tz": "Europe/London",
-            "units": "metric",
-        },
-        {
-            "id": "paris",
-            "name": "Paris, FR",
-            "address": "81 Av. Bosquet",
-            "lat": 48.85545,
-            "lon": 2.30526,
-            "tz": "Europe/Paris",
-            "units": "metric",
-        },
-        {
-            "id": "berlin",
-            "name": "Berlin, DE",
-            "address": "Budapester Str. 40",
-            "lat": 52.50649,
-            "lon": 13.33737,
-            "tz": "Europe/Berlin",
-            "units": "metric",
-        },
-        {
-            "id": "sydney",
-            "name": "Sydney, AU",
-            "address": "25 Martin Pl",
-            "lat": -33.86790,
-            "lon": 151.20943,
-            "tz": "Australia/Sydney",
-            "units": "metric",
-        },
-        {
-            "id": "auckland",
-            "name": "Auckland, NZ",
-            "address": "85 Fort Street",
-            "lat": -36.84564,
-            "lon": 174.76982,
-            "tz": "Pacific/Auckland",
-            "units": "metric",
         },
     ]
 
@@ -205,5 +142,5 @@ def show_map_sidebar_code_examples():
             st.markdown(get_code_example(example["filename"]))
 
     st.sidebar.caption(
-        "Get the code for this app at [GitHub](https://github.com/predicthq/streamlit-restaurant-demo)"
+        "Get the code for this app at [GitHub](https://github.com/predicthq/streamlit-whataburger-example)"
     )
